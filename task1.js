@@ -16,8 +16,8 @@ function countEvenOddZeroElements(arr) {
 	}
 
 	console.log(`Количество чётных элементов: ${even}`);
-  console.log(`Количество нечётных элементов: ${odd}`);
-  console.log(`Количество нулевых элементов: ${zero}`);
+	console.log(`Количество нечётных элементов: ${odd}`);
+	console.log(`Количество нулевых элементов: ${zero}`);
 }
 
 countEvenOddZeroElements([0, 1, 2, 3, 4, 5, 'a', null, undefined]);
